@@ -14,6 +14,8 @@
 }
 .link {
     text-decoration: none;
+    color: var(--mocno);
+    color: var(--mocno2);
 }
 li {
     list-style-type: none;
@@ -28,18 +30,9 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #2E2F42;
-}
-.header-link {
-    text-decoration: none;
-    color: #2E2F42;
-}
-.header-contact {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #434455;
+    letter-spacing: 0.02em;
+    color: var(--mocno);
+    color: var(--mocno2);
 }
 .header-contact-link {
     text-decoration: none;
@@ -93,4 +86,13 @@ body {
 }
 .transform {
     color: var(--studio-transform);
+}
+:hover {
+    --mocno: #404bbf;
+}
+:focus {
+    --mocno2: #404bbf;
+}
+.adress {
+    font-style: normal;
 }
