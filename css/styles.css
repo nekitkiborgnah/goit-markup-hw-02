@@ -20,7 +20,9 @@ li {
     list-style-type: none;
 }
 body {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .header-list {
     font-weight: 500;
@@ -86,3 +88,4 @@ body {
     border: none;
     display: flex;
 }
+:root {}
