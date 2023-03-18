@@ -20,8 +20,7 @@ li {
     list-style-type: none;
 }
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif
 }
 .header-list {
     font-weight: 500;
