@@ -24,7 +24,7 @@ body {
     background-color: #FFFFFF;
 }
 .list {
-    color: var(--mocno);
+    color: var(--seeing);
     color: var(--mocno2);
 }
 .background {
@@ -77,21 +77,22 @@ body {
 .transform {
     color: var(--studio-transform);
 }
+:hover {
+    --seeing:#404bbf;
+}
 :focus {
-    --mocno2: #404bbf;
+    --mocno2:#404bbf;
 }
 .address {
     font-style: normal;
 }
-.header-link:hover {
-    --mocno: #404bbf;
-} {
+.header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--studio-transform);
-    color: var(--mocno);
+    color: #2E2F42;
+    color: var(--seeing);
     color: var(--mocno2);
 }
 .address-link {
@@ -99,6 +100,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
-    color: var(--mocno);
+    color: var(--seeing);
     color: var(--mocno2);
 }
