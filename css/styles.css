@@ -10,9 +10,10 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--web-transform);
+}
+.link {
     text-decoration: none;
-    
 }
 li {
     list-style-type: none;
@@ -87,5 +88,9 @@ body {
     display: flex;
 }
 :root {
-    color: #4D5AE5;
+    --web-transform: #4d5ae5;
+    --studio-transform: #2e2f42;
+}
+.transform {
+    color: var(--studio-transform);
 }
