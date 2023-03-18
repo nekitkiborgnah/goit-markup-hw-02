@@ -77,16 +77,15 @@ body {
 .transform {
     color: var(--studio-transform);
 }
-:hover {
-    --mocno: #404bbf;
-}
 :focus {
     --mocno2: #404bbf;
 }
 .address {
     font-style: normal;
 }
-.header-link {
+.header-link:hover {
+    --mocno: #404bbf;
+} {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
