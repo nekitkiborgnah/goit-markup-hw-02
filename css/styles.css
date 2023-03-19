@@ -77,6 +77,7 @@ body {
     --web-transform: #4d5ae5;
     --studio-transform: #2e2f42;
     --address-transform: #434455;
+    --background-button: #F4F4FD;
 }
 .transform {
     color: var(--studio-transform);
@@ -147,5 +148,23 @@ body {
 }
 .footer-logo {
     color: #f4f4fd;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--web-transform);
+    background-color: var(--background-button);
+}
+.button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
     
