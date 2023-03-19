@@ -142,3 +142,10 @@ body {
 .hacker {
     background-color: #FFFFFF
 }
+.footer {
+    background-color: var(--studio-transform);
+}
+.footer-logo {
+    color: #f4f4fd;
+}
+    
