@@ -71,8 +71,6 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: var(--background);
-    background-color: var(--background2);
     background-color: #4D5AE5;
 }
 :root {
@@ -110,4 +108,10 @@ body {
 }
 .address-link:focus {
     color: #404bbf;
+}
+.knopka:hover {
+    background-color: #404BBF;
+}
+.knopka:focus {
+    background-color: #404BBF;
 }
