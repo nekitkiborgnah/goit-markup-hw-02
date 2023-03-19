@@ -136,3 +136,9 @@ body {
     text-transform: capitalize;
     color: var(--studio-transform);
 }
+.hackers {
+    background-color: #F4F4FD;
+}
+.hacker1 {
+    background-color: #FFFFFF
+}
