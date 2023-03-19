@@ -83,14 +83,6 @@ body {
 .transform {
     color: var(--studio-transform);
 }
-:hover {
-    --seeing:#404bbf;
-    --background:#404BBF;
-}
-:focus {
-    --mocno2:#404bbf;
-    --background2:#404BBF;
-}
 .address {
     font-style: normal;
 }
@@ -99,15 +91,23 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    color: var(--seeing);
-    color: var(--mocno2);
+    color: var(--studio-transform);
 }
 .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
-    color: var(--seeing);
-    color: var(--mocno2);
+}
+.header-link:hover {
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+}
+.address-link:hover {
+    color: #404bbf;
+}
+.address-link:focus {
+    color: #404bbf;
 }
