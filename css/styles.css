@@ -88,10 +88,10 @@ body {
 .address-link:focus {
     color: #404bbf;
 }
-.knopka:hover {
+.btn:hover {
     background-color: #404BBF;
 }
-.knopka:focus {
+.btn:focus {
     background-color: #404BBF;
 }
 .strategy {
