@@ -1,3 +1,9 @@
+:root {
+    --web-transform: #4d5ae5;
+    --studio-transform: #2e2f42;
+    --address-transform: #434455;
+    --background-button: #F4F4FD;
+}
 .logo {
     width: 71px;
     height: 21px;
@@ -15,9 +21,6 @@
 .link {
     text-decoration: none;
 }
-li {
-    list-style-type: none;
-}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -26,20 +29,12 @@ body {
 .list {
     color: var(--seeing);
     color: var(--mocno2);
+    list-style-type: none;
 }
 .background {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;;
 }
 .bomba {
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
     font-weight: 700;
     font-size: 56px;
     text-align: center;
@@ -47,20 +42,9 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em
 }
-.knopka {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
+.btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 48px;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
@@ -72,12 +56,6 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
-}
-:root {
-    --web-transform: #4d5ae5;
-    --studio-transform: #2e2f42;
-    --address-transform: #434455;
-    --background-button: #F4F4FD;
 }
 .transform {
     color: var(--studio-transform);
@@ -179,4 +157,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
+}
+.footer-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
 }
